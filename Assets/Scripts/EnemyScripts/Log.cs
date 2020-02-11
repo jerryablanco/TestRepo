@@ -5,10 +5,13 @@ using UnityEngine;
 public class Log : Enemy
 {
     protected Rigidbody2D myRigidbody;
+    [Header("Target Variables")]
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
     public Transform homePosition;
+
+    [Header("Animation")]
     public Animator animator;
 
     // Start is called before the first frame update
@@ -63,7 +66,7 @@ public class Log : Enemy
         }
     }
 
-    private void SetAnimatorFloat(Vector2 setVector)
+    protected void SetAnimatorFloat(Vector2 setVector)
     {
         animator.SetFloat("moveX", setVector.x);
         animator.SetFloat("moveY", setVector.y);

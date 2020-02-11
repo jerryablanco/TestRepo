@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d4fa19ebd465ff489c9209d16006e19, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: dac82b423a4dd2c46938f9744d07c5e0, type: 3}
+  m_Name: HouseCameraMax
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfKeys: 15
-  coins: 0
+  initialValue: {x: 0, y: 0}
+  defaultValue: {x: 0, y: 0}
