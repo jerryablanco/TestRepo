@@ -141,3 +141,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 820059b745cd3ae4d99338d0b1ec7694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myLoot: {fileID: 11400000, guid: b7b0f3b7addcd9644bed4252609e3636, type: 2}
+  LootTable: 

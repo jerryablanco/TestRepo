@@ -9,7 +9,6 @@ public class Log : Enemy
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
-    public Transform homePosition;
 
     [Header("Animation")]
     public Animator animator;
@@ -78,4 +77,9 @@ public class Log : Enemy
             currentState = newState;
         }
     }
+
+    //private void OnDisable()
+    //{
+    //    ChangeState(EnemyState.IDLE);
+    //}
 }

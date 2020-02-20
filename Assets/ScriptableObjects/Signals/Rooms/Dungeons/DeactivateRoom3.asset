@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d4fa19ebd465ff489c9209d16006e19, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: e76027da68cee9042853b5b45d3e8f0f, type: 3}
+  m_Name: DeactivateRoom3
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfKeys: 13
-  coins: 0
+  listeners: []

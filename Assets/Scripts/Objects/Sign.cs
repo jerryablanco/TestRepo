@@ -12,7 +12,7 @@ public class Sign : Interactable
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange) {
+        if (Input.GetButtonDown("attack") && playerInRange) {
             if (dialogBox.activeInHierarchy) {
                 dialogBox.SetActive(false);
             }
@@ -28,7 +28,7 @@ public class Sign : Interactable
     {
         if (collision.CompareTag("Player") && !collision.isTrigger) {
             playerInRange = true;
-            Debug.Log("InContext");
+            //Debug.Log("InContext");
             context.Raise();
         }
     }

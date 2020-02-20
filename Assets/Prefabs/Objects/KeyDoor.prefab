@@ -77,6 +77,7 @@ MonoBehaviour:
   playerInventory: {fileID: 11400000, guid: f9681ac32e63def43bd27a6247aab9a5, type: 2}
   doorSprite: {fileID: 8329950653028759507}
   physicsCollider: {fileID: 8329950653028759516}
+  contextClueCollider: {fileID: 8329950652638616832}
 --- !u!1 &8329950653028759518
 GameObject:
   m_ObjectHideFlags: 0
